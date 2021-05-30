@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Eh-Ho</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="label_sign_in">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="label_sign_up">Sign up</string>
+    <string name="label_login">Login</string>
+    <string name="label_create_new_account">Create new account</string>
+    <string name="label_loading">Loading</string>
+    <string name="username_character_error">Debe tener más de 5 carácters</string>
+    <string name="password_character_error">Deber ser mayor de 8 carácteres</string>
+    <string name="username_alphanumeric_error">Deben ser caracteres alphanuméricos</string>
+    <string name="password_character_type_error">Debe contener dígitos, minúsculas y mayúsculas y símbolos</string>
+    <string name="email_error">Debe ser un email</string>
+    <string name="confirm_pass_error">Las contraseñas deben coincidir</string>
+    <string name="request_error_text">Ha ocurrido un error, vuelve a intentarlo mas tarde</string>
+    <string name="no_topic_text">No existe ningun topic</string>
+</resources>

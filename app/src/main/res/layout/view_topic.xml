@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="4dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Topic title" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/welcomePinned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="4dp"
+            android:text="Welcome to discourse app"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="4dp"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            tools:text="Topic user" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/replyNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="4dp"
+            android:drawableStart="@drawable/ic_baseline_question_answer_24"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            tools:text="0" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/likeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="4dp"
+            android:drawableStart="@drawable/ic_like"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            tools:text="0" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
